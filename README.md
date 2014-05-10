@@ -9,7 +9,7 @@ Log in to Västtrafik, authenticating global request cookie jar.
 via npm:
 
 ```bash
-$ npm install jade
+$ npm install vasttrafik-login
 ```
 
 ## API
