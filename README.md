@@ -2,6 +2,8 @@
 
 Log in to Västtrafik, authenticating global request cookie jar.
 
+[![Build Status](https://img.shields.io/travis/krawaller/vasttrafik-login/master.svg)](https://travis-ci.org/krawaller/vasttrafik-login)
+
 ## Installation
 
 via npm:
