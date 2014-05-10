@@ -1,0 +1,35 @@
+{
+  "name": "vasttrafik-login",
+  "version": "0.0.1",
+  "description": "Log in to Västtrafik, authenticating global request cookie jar",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/krawaller/vasttrafik-login"
+  },
+  "keywords": [
+    "västtrafik"
+  ],
+  "author": "Jacob Waller <jacob@krawaller.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krawaller/vasttrafik-login/issues"
+  },
+  "homepage": "https://github.com/krawaller/vasttrafik-login",
+  "dependencies": {
+    "request": "~2.34.0",
+    "browser-request": "~0.3.1",
+    "kew": "~0.4.0"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2",
+    "chai-as-promised": "~4.1.1"
+  }
+}
