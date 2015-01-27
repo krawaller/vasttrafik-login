@@ -4,7 +4,7 @@
   "description": "Log in to Västtrafik, authenticating global request cookie jar",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha && mochify --reporter spec --timeout 10000 --web-security false"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,8 @@
   },
   "devDependencies": {
     "chai": "~1.9.1",
+    "chai-as-promised": "~4.1.1",
     "mocha": "~1.18.2",
-    "chai-as-promised": "~4.1.1"
+    "mochify": "~2.2.0"
   }
 }

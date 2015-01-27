@@ -5,8 +5,10 @@ var should = chai.should();
 
 var login = require('../lib/login');
 
-var username = process.env.USERNAME;
-var password = process.env.PASSWORD;
+var credentials = require('../credentials.json');
+
+var username = credentials.USERNAME || process.env.USERNAME;
+var password = credentials.PASSWORD || process.env.PASSWORD;
 
 describe('vasttrafik-login', function() {
   it('should successfully log in', function() {
